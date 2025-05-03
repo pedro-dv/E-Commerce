@@ -1,0 +1,39 @@
+.filter-group {
+  margin-bottom: 24px;
+}
+
+.filter-group-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--dark-gray-2);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.filter-option:hover {
+  background-color: var(--light-gray-2);
+}
+
+.filter-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  accent-color: var(--primary); /* Para browsers modernos */
+  cursor: pointer;
+}

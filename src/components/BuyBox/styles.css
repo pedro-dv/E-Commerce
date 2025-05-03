@@ -1,0 +1,66 @@
+.buy-box {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.buy-box .price {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.buy-box .price.original {
+  text-decoration: line-through;
+  color: var(--light-gray);
+  font-size: 16px;
+}
+
+.buy-box .price.discount {
+  color: var(--dark-gray);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Botões */
+
+.button {
+  width: 220px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.buy-button,
+.cart-button {
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 220px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.cart-button {
+  background-color: var(--secondary);
+}
+
+.buy-button:hover {
+  background-color: var(--warning);
+  transform: scale(1.05);
+}
+
+.cart-button:hover {
+  background-color: var(--tertiary);
+  transform: scale(1.05);
+}

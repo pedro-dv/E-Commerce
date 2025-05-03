@@ -1,0 +1,69 @@
+
+/* Cores principais */
+:root {
+  /* Cores base */
+  --primary: #2F80ED;       /* Azul Profundo */
+  --secondary: #56CCF2;     /* Azul Claro */
+  --tertiary: #1C4E80;      /* Azul Escuro */
+  
+  /* Estados */
+  --error: #E74C3C;         /* Vermelho Erro */
+  --success: #27AE60;       /* Verde Sucesso */
+  --warning: #F39C12;       /* Amarelo Alerta */
+
+  /* Escala de Cinza */
+  --dark-gray: #1C1C1C;     /* Quase Preto */
+  --dark-gray-2: #3D3D3D;   /* Cinza Escuro */
+  --dark-gray-3: #6C6C6C;   /* Cinza Médio */
+  --light-gray: #BDBDBD;    /* Cinza Claro */
+  --light-gray-2: #E0E0E0;  /* Cinza Muito Claro */
+  --light-gray-3: #F9FAFB;  /* Fundo Claro */
+
+  /* Base */
+  --white: #FFFFFF;
+}
+
+
+/* Exemplo de uso das variáveis */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--light-gray-3);
+  color: var(--dark-gray);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--tertiary);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--tertiary);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.4); /* Acessível */
+}
+
+.error-text {
+  color: var(--error);
+}
+
+.success-text {
+  color: var(--success);
+}

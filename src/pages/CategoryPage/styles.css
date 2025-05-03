@@ -1,0 +1,146 @@
+/* Estilo para a página de categoria */
+.category-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Estilo para o título da categoria */
+.category-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Estilo para as seções de categorias */
+.category-section {
+  margin-bottom: 3rem;
+}
+
+/* Estilo para o nome da categoria */
+.category-name {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para as imagens da categoria */
+.category-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.category-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-image:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo para a página de produtos da categoria */
+.category-products-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Estilo para o título da categoria */
+.category-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Estilo para o conteúdo da categoria */
+.category-content {
+  display: flex;
+  width: 100%;
+}
+
+/* Estilo para a seção de filtros */
+.filters {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background-color: var(--neutral-background);
+}
+
+/* Estilo para a listagem de produtos */
+.product-listing-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Estilo para a paginação */
+.pagination {
+  margin-top: 1rem;
+}
+
+/* Estilo para as opções de filtro */
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group-title {
+  font-size: 14px;
+  color: var(--dark-gray-2);
+  margin-bottom: 10px;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.filter-option input {
+  margin-right: 5px;
+}
+
+/* Estilo para o dropdown de ordenação */
+.sorting-dropdown {
+  margin-bottom: 1rem;
+}
+
+.sorting-dropdown label {
+  font-size: 16px;
+  color: var(--dark-gray-2);
+  margin-right: 0.5rem;
+}
+
+.sorting-dropdown select {
+  padding: 5px;
+  border: 1px solid var(--light-gray-2);
+  border-radius: 4px;
+}
+
+/* Estilo para o container da seção */
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para o container da categoria */
+.category-container {
+  display: flex;
+}

@@ -1,0 +1,129 @@
+@import '../../Variables.css';
+
+/* Container Principal do Footer */
+.footer {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo e Descrição */
+.logo-section {
+  width: 20%;
+  min-width: 200px; /* Evita que fique muito pequeno em telas menores */
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Ícones das Redes Sociais */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Seção de Colunas */
+.footer-section {
+  width: 20%;
+  min-width: 160px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-list li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-list li:hover a {
+  color: var(--primary);
+}
+
+/* Contato */
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Linha Inferior e Texto Centralizado */
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid var(--dark-gray-3);
+  margin-bottom: 8px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: var(--light-gray-2);
+}
+
+
+/* Responsivo: Telas menores (celulares/tablets) */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .logo-section,
+  .footer-section {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer-logo {
+    margin: 0 auto 16px auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
