@@ -2,7 +2,7 @@ const products = [
   {
     id: 0,
     name: "Camiseta 0",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/public/product-thumb-1.jpeg",
     price: 450.25,
     category: "Camisetas",
     description: "Descrição da Camiseta 0",
@@ -11,7 +11,7 @@ const products = [
   {
     id: 1,
     name: "Calça 1",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/public/product-thumb-2.jpeg",
     price: 210.75,
     category: "Calças",
     description: "Descrição da Calça 1",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "Boné 2",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/public/product-thumb-3.jpeg",
     price: 85.95,
     category: "Bonés",
     description: "Descrição do Boné 2",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "Headphone 3",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/public/product-thumb-4.jpeg",
     price: 325.60,
     category: "Headphones",
     description: "Descrição do Headphone 3",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 4,
     name: "Tênis 4",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 195.45,
     category: "Tênis",
     description: "Descrição do Tênis 4",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 5,
     name: "Tênis 5",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 289.80,
     category: "Tênis",
     description: "Descrição do Tênis 5",
@@ -56,7 +56,7 @@ const products = [
   {
     id: 6,
     name: "Tênis 6",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 179.99,
     priceDiscount: 150.50,
     category: "Tênis",
@@ -66,7 +66,7 @@ const products = [
   {
     id: 7,
     name: "Camiseta 7",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 49.99,
     category: "Camisetas",
     description: "Descrição da Camiseta 7",
@@ -75,7 +75,7 @@ const products = [
   {
     id: 8,
     name: "Calça 8",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 102.50,
     category: "Calças",
     description: "Descrição da Calça 8",
@@ -85,7 +85,7 @@ const products = [
   {
     id: 9,
     name: "Boné 9",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 69.30,
     category: "Bonés",
     description: "Descrição do Boné 9",
@@ -94,7 +94,7 @@ const products = [
   {
     id: 10,
     name: "Headphone 10",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 310.45,
     category: "Headphones",
     description: "Descrição do Headphone 10",
@@ -103,7 +103,7 @@ const products = [
   {
     id: 11,
     name: "Tênis 11",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 155.60,
     category: "Tênis",
     description: "Descrição do Tênis 11",
@@ -113,7 +113,7 @@ const products = [
   {
     id: 12,
     name: "Tênis 12",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 192.80,
     category: "Tênis",
     description: "Descrição do Tênis 12",
@@ -122,7 +122,7 @@ const products = [
   {
     id: 13,
     name: "Tênis 13",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 110.45,
     category: "Tênis",
     description: "Descrição do Tênis 13",
@@ -132,7 +132,7 @@ const products = [
   {
     id: 14,
     name: "Camiseta 14",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 220.10,
     category: "Camisetas",
     description: "Descrição da Camiseta 14",
@@ -141,7 +141,7 @@ const products = [
   {
     id: 15,
     name: "Calça 15",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 130.75,
     category: "Calças",
     description: "Descrição da Calça 15",
@@ -150,7 +150,7 @@ const products = [
   {
     id: 16,
     name: "Boné 16",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 55.50,
     category: "Bonés",
     description: "Descrição do Boné 16",
@@ -159,7 +159,7 @@ const products = [
   {
     id: 17,
     name: "Headphone 17",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 390.75,
     category: "Headphones",
     description: "Descrição do Headphone 17",
@@ -168,7 +168,7 @@ const products = [
   {
     id: 18,
     name: "Tênis 18",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 179.80,
     category: "Tênis",
     description: "Descrição do Tênis 18",
@@ -177,7 +177,7 @@ const products = [
   {
     id: 19,
     name: "Tênis 19",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 140.30,
     category: "Tênis",
     description: "Descrição do Tênis 19",
@@ -186,7 +186,7 @@ const products = [
   {
     id: 20,
     name: "Tênis 20",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 240.99,
     priceDiscount: 200.50,
     category: "Tênis",
@@ -197,7 +197,7 @@ const products = [
   {
     id: 21,
     name: "Camiseta 21",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 59.40,
     category: "Camisetas",
     description: "Descrição da Camiseta 21",
@@ -206,7 +206,7 @@ const products = [
   {
     id: 22,
     name: "Calça 22",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 175.25,
     category: "Calças",
     description: "Descrição da Calça 22",
@@ -216,7 +216,7 @@ const products = [
   {
     id: 23,
     name: "Boné 23",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 72.10,
     category: "Bonés",
     description: "Descrição do Boné 23",
@@ -225,7 +225,7 @@ const products = [
   {
     id: 24,
     name: "Headphone 24",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 400.75,
     category: "Headphones",
     description: "Descrição do Headphone 24",
@@ -234,7 +234,7 @@ const products = [
   {
     id: 25,
     name: "Tênis 25",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 190.50,
     category: "Tênis",
     description: "Descrição do Tênis 25",
@@ -244,7 +244,7 @@ const products = [
   {
     id: 26,
     name: "Tênis 26",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 26",
@@ -253,7 +253,7 @@ const products = [
   {
     id: 27,
     name: "Tênis 27",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 27",
@@ -263,7 +263,7 @@ const products = [
   {
     id: 28,
     name: "Camiseta 28",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 49.9,
     category: "Camisetas",
     description: "Descrição da Camiseta 28",
@@ -272,7 +272,7 @@ const products = [
   {
     id: 29,
     name: "Calça 29",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 99.9,
     category: "Calças",
     description: "Descrição da Calça 29",
@@ -281,7 +281,7 @@ const products = [
   {
     id: 30,
     name: "Boné 30",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 29.9,
     category: "Bonés",
     description: "Descrição do Boné 30",
@@ -290,7 +290,7 @@ const products = [
   {
     id: 31,
     name: "Headphone 31",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 199.9,
     category: "Headphones",
     description: "Descrição do Headphone 31",
@@ -299,7 +299,7 @@ const products = [
   {
     id: 32,
     name: "Tênis 32",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 32",
@@ -308,7 +308,7 @@ const products = [
   {
     id: 33,
     name: "Tênis 33",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 33",
@@ -317,7 +317,7 @@ const products = [
   {
     id: 34,
     name: "Tênis 34",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     priceDiscount: 130.50,
     category: "Tênis",
@@ -328,7 +328,7 @@ const products = [
   {
     id: 35,
     name: "Camiseta 35",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 49.9,
     category: "Camisetas",
     description: "Descrição da Camiseta 35",
@@ -337,7 +337,7 @@ const products = [
   {
     id: 36,
     name: "Calça 36",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 99.9,
     category: "Calças",
     description: "Descrição da Calça 36",
@@ -347,7 +347,7 @@ const products = [
   {
     id: 37,
     name: "Boné 37",
-    image: "../../../public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 29.9,
     category: "Bonés",
     description: "Descrição do Boné 37",
@@ -356,7 +356,7 @@ const products = [
   {
     id: 38,
     name: "Headphone 38",
-    image: "../../../public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 199.9,
     category: "Headphones",
     description: "Descrição do Headphone 38",
@@ -365,7 +365,7 @@ const products = [
   {
     id: 39,
     name: "Tênis 39",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 39",
@@ -375,7 +375,7 @@ const products = [
   {
     id: 40,
     name: "Tênis 40",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 40",
@@ -384,7 +384,7 @@ const products = [
   {
     id: 41,
     name: "Tênis 41",
-    image: "../../../public/product-thumb-5.jpeg",
+    image: "/product-thumb-5.jpeg",
     price: 149.9,
     category: "Tênis",
     description: "Descrição do Tênis 41",
@@ -394,7 +394,7 @@ const products = [
   {
     id: 42,
     name: "Camiseta 42",
-    image: "../../../public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 49.9,
     category: "Camisetas",
     description: "Descrição da Camiseta 42",
@@ -403,7 +403,7 @@ const products = [
   {
     id: 43,
     name: "Calça 43",
-    image: "../../../public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 99.9,
     category: "Calças",
     description: "Descrição da Calça 43",
