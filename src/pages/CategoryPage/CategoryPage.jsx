@@ -5,26 +5,34 @@ import Section from "../../components/Section/Section";
 import { useNavigate } from "react-router-dom";
 import products from "../../components/ProductData/ProductData";
 
+// ✅ Importando imagens corretamente
+import camisaImg from "../../assets/categoryIcons/iconsPng/camisa.png";
+import calcaImg from "../../assets/categoryIcons/iconsPng/calca.png";
+import boneImg from "../../assets/categoryIcons/iconsPng/bone.png";
+import headphoneImg from "../../assets/categoryIcons/iconsPng/headphone.png";
+import tenisImg from "../../assets/categoryIcons/iconsPng/tenis.png";
+
+// Lista de categorias
 const categories = [
   {
     name: "Camisetas",
-    image: "../../../src/assets/categoryIcons/iconsPng/camisa.png",
+    image: camisaImg,
   },
   {
     name: "Calças",
-    image: "../../../src/assets/categoryIcons/iconsPng/calca.png",
+    image: calcaImg,
   },
   {
     name: "Bonés",
-    image: "../../../src/assets/categoryIcons/iconsPng/bone.png",
+    image: boneImg,
   },
   {
     name: "Headphones",
-    image: "../../../src/assets/categoryIcons/iconsPng/headphone.png",
+    image: headphoneImg,
   },
   {
     name: "Tênis",
-    image: "../../../src/assets/categoryIcons/iconsPng/tenis.png",
+    image: tenisImg,
   },
 ];
 

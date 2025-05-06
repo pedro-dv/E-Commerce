@@ -7,6 +7,13 @@ import ProductListing from "../../components/ProductListing/ProductListing";
 import products from "../../components/ProductData/ProductData";
 import { useNavigate } from "react-router-dom";
 
+// ✅ Importações corretas das imagens do src/assets
+import frame10 from "../../assets/categoryIcons/Frame-10.svg";
+import frame11 from "../../assets/categoryIcons/Frame-11.svg";
+import frame12 from "../../assets/categoryIcons/Frame-12.svg";
+import frame13 from "../../assets/categoryIcons/Frame-13.svg";
+import frame14 from "../../assets/categoryIcons/Frame-14.svg";
+
 const HomePage = () => {
   const navigate = useNavigate();
 
@@ -19,58 +26,58 @@ const HomePage = () => {
       <div className="home-page">
         <Gallery
           images={[
-            { src: "public/home-slide-1.jpeg" },
-            { src: "public/home-slide-2.jpeg" },
-            { src: "public/home-slide-3.jpeg" },
-            { src: "public/home-slide-4.jpeg" },
+            { src: "/home-slide-1.jpeg" },
+            { src: "/home-slide-2.jpeg" },
+            { src: "/home-slide-3.jpeg" },
+            { src: "/home-slide-4.jpeg" },
           ]}
-          // width="1440px"
           max-width="100%"
           height="681px"
         />
 
         <Section title="Coleções em destaque" titleAlign="left">
           <div className="collections-containers">
-            <img src="public/collection-2.png" className="collection-image" />
-            <img src="public/collection-3.png" className="collection-image" />
-            <img src="public/collection-1.png" className="collection-image" />
+            <img src="/collection-2.png" className="collection-image" alt="Coleção 2" />
+            <img src="/collection-3.png" className="collection-image" alt="Coleção 3" />
+            <img src="/collection-1.png" className="collection-image" alt="Coleção 1" />
           </div>
         </Section>
 
         <Section title="Coleção em Destaque" titleAlign="center">
           <div className="collection-category">
             <img
-              src="../src/assets/categoryIcons/Frame-10.svg"
+              src={frame10}
               className="collection-image category"
               onClick={() => handleCategoryClick("camisas")}
               alt="Camisas"
             />
             <img
-              src="../src/assets/categoryIcons/Frame-11.svg"
+              src={frame11}
               className="collection-image category"
               onClick={() => handleCategoryClick("calcas")}
               alt="Calças"
             />
             <img
-              src="../src/assets/categoryIcons/Frame-12.svg"
+              src={frame12}
               className="collection-image category"
               onClick={() => handleCategoryClick("bones")}
               alt="Bonés"
             />
             <img
-              src="../src/assets/categoryIcons/Frame-13.svg"
+              src={frame13}
               className="collection-image category"
               onClick={() => handleCategoryClick("headphones")}
               alt="Headphones"
             />
             <img
-              src="../src/assets/categoryIcons/Frame-14.svg"
+              src={frame14}
               className="collection-image category"
               onClick={() => handleCategoryClick("tenis")}
               alt="Tênis"
             />
           </div>
         </Section>
+
         <Section
           title="Produtos em alta"
           titleAlign=""
