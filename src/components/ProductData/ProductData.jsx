@@ -2,7 +2,7 @@ const products = [
   {
     id: 0,
     name: "Camiseta 0",
-    image: "/public/product-thumb-1.jpeg",
+    image: "/product-thumb-1.jpeg",
     price: 450.25,
     category: "Camisetas",
     description: "Descrição da Camiseta 0",
@@ -11,7 +11,7 @@ const products = [
   {
     id: 1,
     name: "Calça 1",
-    image: "/public/product-thumb-2.jpeg",
+    image: "/product-thumb-2.jpeg",
     price: 210.75,
     category: "Calças",
     description: "Descrição da Calça 1",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "Boné 2",
-    image: "/public/product-thumb-3.jpeg",
+    image: "/product-thumb-3.jpeg",
     price: 85.95,
     category: "Bonés",
     description: "Descrição do Boné 2",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "Headphone 3",
-    image: "/public/product-thumb-4.jpeg",
+    image: "/product-thumb-4.jpeg",
     price: 325.60,
     category: "Headphones",
     description: "Descrição do Headphone 3",
