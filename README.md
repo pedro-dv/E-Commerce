@@ -16,7 +16,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório para a sua máquina:
    ```bash
-   git clone https://github.com/ldlaLucas/Projeto-Digital-Store.git
+   git clone https://github.com/pedro-dv/E-Commerce.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -85,17 +85,14 @@ src/
 
 Se você tiver dúvidas ou sugestões, entre em contato:
 
-E-mail: ldlaconcursos@gmail.com
 
-E-mail: henrique.pedro62@aluno.ifce.com
 
-E-mail: steiciealeixosousa@gmail.com
+E-mail: godofwar2906@gmail.com
 
-LinkedIn: [Lucas Augusto]( https://www.linkedin.com/in/lucas-augusto-a752872b5LinkedIn)
 
-LinkedIn: [Pedro Henrique](https://www.linkedin.com/in/-dev-suporte-profissional-ti-pedro-b2680a302/)
+LinkedIn: [Pedro Henrique](https://www.linkedin.com/in/pedro-henrique-74905035a/)
 
-LinkedIn: [Steicie Aleixo](https://www.linkedin.com/in/steicie-aleixo-sousa-6053231a7/)
+
 
 ---
 
@@ -105,5 +102,5 @@ Obrigado por conferir nosso projeto! Esperamos que você aproveite a experiênci
 
 ---
 
-💻 Desenvolvido por Lucas Augusto, Pedro Henrique e Steicie Aleixo! 
+💻 Desenvolvido por Pedro Menezes! 
 
